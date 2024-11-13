@@ -40,28 +40,21 @@ for (let i = 0; i < myName.length; i++) {
 console.log(numberOfVoylles);
 */
 
-/* Exercice 6 */
+/* Exercice 6 
 const str = "salut tout le monde";
 let times = 0;
-let notExist = true;
-let variable = "";
+let arr = [];
 
 for (let i = 0; i < str.length; i++) {
-    if (str[i] == " ") {continue};
-    variable = str[i];
-    for (let letter = 0; letter < str.length; letter++) {
-       if (str[letter] === variable) {
+    if ((arr.includes(str[i])) || (str[i] === " ")) { continue }
+    for (let j = 0; j < str.length; j++) {
+        if(str[i] === str[j]) {
             times++;
-            if (letter == str.length - 1) {console.log(variable + times);}      
-       }
-        
+        }
     }
-    
-    notExist = true;
+    console.log(`${str[i]} ${times}`);
     times = 0;
-    variable = "";
-    
+    arr.push(str[i]);
 }
-
-
+*/
 
