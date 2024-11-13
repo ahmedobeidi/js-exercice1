@@ -58,3 +58,39 @@ for (let i = 0; i < str.length; i++) {
 }
 */
 
+/* Exercice 7
+const array = [1, -1, -4, 2, 4, -5, 0];
+let positiveNumbers = [];
+let negativeNumbers = [];
+
+for (let i = 0; i < array.length; i++) {
+    if (array[i] < 0) { negativeNumbers.push(array[i])}
+    else { positiveNumbers.push(array[i]) }
+}
+
+console.log(positiveNumbers);
+console.log(negativeNumbers);
+*/
+
+/* Exercice 8 
+const array = [5, 3, 4, 40, 10, 20];
+let number = 0;
+
+for (let i = 0; i < array.length; i++) {
+    if (array[i] >= number) { number = array[i] }
+}
+
+console.log(number);
+*/
+
+/* Exercice 9 
+const myName = "Ahmed";
+let reversed = "";
+let length = myName.length - 1;
+
+for (let i = length; i >= 0; i--) {
+    reversed += myName[i];
+}
+
+console.log(reversed);
+*/
